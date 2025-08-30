@@ -1,6 +1,13 @@
 name: name.yml
 
 on:
-    push:
-        branches
-   job:
+  push:
+    branches:
+      - main   
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo Hello
+        run: echo "hello"
