@@ -1,0 +1,6 @@
+name: name.yml
+
+on:
+    push:
+        branches
+   job:
